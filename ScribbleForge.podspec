@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'ScribbleForge'
-    s.version          = '1.0.0-alpha.2'
+    s.version          = '1.0.0-alpha.3'
     s.license          = { :type => 'MIT', :text => 'Copyright netless 2024' }
     s.summary          = 'Interacetive whiteboard SDK.'
     s.description      = 'Next generation Interacetive whiteboard SDK.'
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.author           = { 'vince' => 'zjxuyunshi@gmail.com' }
     s.platform         = :ios, '11.0'
     s.swift_versions   = '5.0'
-    s.source = {  :http => "https://github.com/netless-io/scribbleforge-ios-release/releases/download/1.0.0-alpha.2/Build.zip" }
+    s.source = {  :http => "https://github.com/netless-io/scribbleforge-ios-release/releases/download/1.0.0-alpha.3/Build.zip" }
   
     s.subspec 'Basic' do |s|
       s.vendored_frameworks = 'Build/ScribbleForge.xcframework'
