@@ -1,5 +1,10 @@
 # CHANGELOG
 
+### 1.0.0-alpha.4
+
+- PreviewList 预览 ratio fix.
+- Conflict 机制优化， 使用 Throttler。
+
 ### 1.0.0-alpha.3
 
 - 测试版本
