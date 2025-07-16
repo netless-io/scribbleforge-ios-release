@@ -1,5 +1,11 @@
 # CHANGELOG
 
+### 1.0.0-alpha.7
+
+- 修复初始化的时候，Doc 可能交换不完全
+- 修复 LocalThrottler 线程不正确
+- 修复 Web 可放缩问题
+
 ### 1.0.0-alpha.5
 
 - 优化日志系统
@@ -22,13 +28,13 @@
 ### 1.0.0-alpha.1
 
 - 测试版本
-  
+
 ### 0.1.34
 
 @netless/forge-whiteboard@0.1.20
 
--  新增 `WhiteboardApplication.updateViewport` 方法
- 
+- 新增 `WhiteboardApplication.updateViewport` 方法
+
 ### 0.1.33
 
 @netless/forge-whiteboard@0.1.18
