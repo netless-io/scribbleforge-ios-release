@@ -1,5 +1,11 @@
 # CHANGELOG
 
+### 1.0.0-alpha.5
+
+- 优化日志系统
+- 优化离开房间时最后消息的发送行为，尽力而为的发送
+- 增加 window.__nativeTags.platform
+
 ### 1.0.0-alpha.4
 
 - PreviewList 预览 ratio fix.
