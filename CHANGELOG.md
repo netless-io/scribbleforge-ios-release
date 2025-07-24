@@ -1,5 +1,12 @@
 # CHANGELOG
 
+### 1.0.0
+- 更新 `@netless/forge-room` 到 `1.0.0`
+- 更新 `@netless/forge-whiteboard` 到 `1.0.0`
+- 更新 `@netless/forge-imagery-doc` 到 `1.0.0`
+- 更新 `@netless/forge-slide` 到 `1.0.0`
+- 修改 `windowPosition` 的默认值为 `0.05`
+
 ### 1.0.0-alpha.7
 
 - 修复初始化的时候，Doc 可能交换不完全
