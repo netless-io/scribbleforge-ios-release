@@ -1,26 +1,24 @@
 Pod::Spec.new do |s|
     s.name             = 'ScribbleForge'
-    s.version          = '1.0.1'
+    s.version          = '1.0.2-alpha.0'
     s.summary          = 'Interacetive whiteboard SDK.'
     s.description      = 'Next generation Interacetive whiteboard SDK.'
     s.homepage         = 'https://github.com/netless-io/scribble-forge-release'
     s.author           = { 'vince' => 'zjxuyunshi@gmail.com' }
     s.platform         = :ios, '11.0'
     s.swift_versions   = '5.0'
-    s.source = {  :http => "https://github.com/netless-io/scribbleforge-ios-release/releases/download/1.0.1/Build.zip" }
+    s.source = {  :http => "https://github.com/netless-io/scribbleforge-ios-release/releases/download/1.0.2-alpha.0/Build.zip" }
   
     s.subspec 'Basic' do |s|
       s.vendored_frameworks = 'Build/ScribbleForge.xcframework'
       s.dependency 'NTLBridge', '3.2.0'
       s.dependency 'RxSwift'
-      s.dependency 'NTLMessagePacker', '0.4.8'
     end
   
     s.subspec 'Basic-XCode13' do |s|
       s.vendored_frameworks = 'Build/xcode13-build/ScribbleForge.xcframework'
       s.dependency 'NTLBridge'
       s.dependency 'RxSwift', '6.2.0'
-      s.dependency 'NTLMessagePacker', '0.4.8'
     end
   
     s.subspec 'AgoraRtm2.1.x' do |s|
