@@ -1,8 +1,8 @@
 # CHANGELOG
 
-### [1.0.2-alpha.0] - 2025-08-12
-- 内置 `NTLMessagePacker`
-
+### [1.0.2] - 2025-08-12
+- 内置 `NTLMessagePacker` 以消除 xcode13 `AgoraSpecial` 的打包报错
+  
 ### [1.0.1] - 2025-08-11
 - 添加 `NTLMessagePacker` 用于 `AgoraSpecial`
 - 修复文档异步初始化时的数据竞争崩溃问题
