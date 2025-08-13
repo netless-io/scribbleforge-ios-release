@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### [1.0.3] - 2025-08-13
+- 修复 `BigInt` 在低版本的兼容性
+- 将部分 JavaScript 代码移到 bridge 工程
+
 ### [1.0.2] - 2025-08-12
 - 内置 `NTLMessagePacker` 以消除 xcode13 `AgoraSpecial` 的打包报错
   
