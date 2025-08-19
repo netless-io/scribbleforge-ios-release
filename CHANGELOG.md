@@ -1,5 +1,11 @@
 # CHANGELOG
 
+### [1.0.4] - 2025-08-19
+- 更新 `@netless/forge-room` 到 `1.0.1`
+- 更新 `@netless/forge-whiteboard` 到 `1.0.1`
+- 更新 `@netless/forge-imagery-doc` 到 `1.0.1`
+- 更新 `@netless/forge-slide` 到 `1.0.1`
+
 ### [1.0.3] - 2025-08-13
 - 修复 `BigInt` 在低版本的兼容性
 - 将部分 JavaScript 代码移到 bridge 工程
