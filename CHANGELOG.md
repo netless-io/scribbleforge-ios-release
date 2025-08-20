@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### [1.0.5] - 2025-08-20
+- `Whiteboard` 增加私有方法
+
 ### [1.0.4] - 2025-08-19
 - 更新 `@netless/forge-room` 到 `1.0.1`
 - 更新 `@netless/forge-whiteboard` 到 `1.0.1`
