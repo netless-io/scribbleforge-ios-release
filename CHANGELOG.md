@@ -1,5 +1,13 @@
 # CHANGELOG
 
+### [1.0.6] - 2025-08-22
+- 添加双向初始化数据交换行为
+- 优化 RTM 状态监听对象处理
+- 更新 `@netless/forge-room` 到 `1.0.6`
+- 更新 `@netless/forge-whiteboard` 到 `1.0.6`
+- 更新 `@netless/forge-imagery-doc` 到 `1.0.6`
+- 更新 `@netless/forge-slide` 到 `1.0.6`
+
 ### [1.0.5] - 2025-08-20
 - `Whiteboard` 增加私有方法
 
