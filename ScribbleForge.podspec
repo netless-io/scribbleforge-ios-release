@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'ScribbleForge'
-    s.version          = '1.0.7'
+    s.version          = '1.0.7.1'
     s.summary          = 'Interacetive whiteboard SDK.'
     s.description      = 'Next generation Interacetive whiteboard SDK.'
     s.homepage         = 'https://github.com/netless-io/scribble-forge-release'
@@ -38,6 +38,11 @@ Pod::Spec.new do |s|
   
     s.subspec 'AgoraSpecial' do |s|
       s.dependency 'AgoraRtm/RtmKit', '~> 2.2.2'
+      s.dependency 'ScribbleForge/Basic-XCode13'
+    end
+
+    s.subspec 'AgoraSpecialRtmSpecial' do |s|
+      s.dependency 'AgoraRtm_OC_Special/RtmKit', '~> 2.2.6.3'
       s.dependency 'ScribbleForge/Basic-XCode13'
     end
    
