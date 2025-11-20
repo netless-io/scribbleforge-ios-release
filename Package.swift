@@ -22,19 +22,20 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ScribbleForgeCore",
-            url: "https://github.com/netless-io/scribbleforge-ios-release/releases/download/1.1.0-canary.2/ScribbleForgeCore.xcframework.zip",
-            checksum: "c6e5e4078a735752e24b1d0ca34366de6e82893676033f308a87119545c6d675"
+            url: "https://github.com/netless-io/scribbleforge-ios-release/releases/download/1.1.0-canary.3/ScribbleForgeCore.xcframework.zip",
+            checksum: "7738305d6378b46f539890aa17c2116a597b2cf9e05c55856b8dd8d93519a71d"
         ),
         .binaryTarget(
             name: "ScribbleForge",
-            url: "https://github.com/netless-io/scribbleforge-ios-release/releases/download/1.1.0-canary.2/ScribbleForge.xcframework.zip",
-            checksum: "96fcb7ad8955e81ebe8b940f428aa5a63aa59417e2b97ea26905adc657e9db42"
+            url: "https://github.com/netless-io/scribbleforge-ios-release/releases/download/1.1.0-canary.3/ScribbleForge.xcframework.zip",
+            checksum: "80b2dea8176e3f2bd9b1d57ac55a361260552b370da262344d5903b2f2d51e8e"
         ),
         .target(
             name: "ScribbleForgeRTM",
             dependencies: [
                 .product(name: "AgoraRTM", package: "AgoraRtm_Apple"),
                 "ScribbleForge",
+                "ScribbleForgeCore",
             ],
             path: ".",
         ),
