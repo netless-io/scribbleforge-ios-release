@@ -1,10 +1,11 @@
 # CHANGELOG
 
 ### [1.0.10] - 2025-09-16
+- 更新 `@netless/forge-room` 到 `1.0.7`
+- 更新 `@netless/forge-whiteboard` 到 `1.0.7`
+- 更新 `@netless/forge-imagery-doc` 到 `1.0.7`
+- 更新 `@netless/forge-slide` 到 `1.0.7`
 - 修复交换向量的时候数据不正确问题。
-
-### [1.0.9] - 2025-09-10
-
 - 更新快照获取到 v2 版本
 - 优化日志系统：
   - 修复 JSON 序列化崩溃问题
