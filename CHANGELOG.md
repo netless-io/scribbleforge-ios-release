@@ -1,5 +1,14 @@
 # CHANGELOG
 
+### [1.1.0-beta.2] - 2025-09-16
+- 降低同用户冲突处理的冷却时间到 3 秒
+- Application manager 增加关闭权限管理
+- 修复在接收异常数据下，快照失败导致的一系列其他问题
+- 更新 `@netless/forge-room` 到 `1.1.0-beta.2`
+- 更新 `@netless/forge-whiteboard` 到 `1.1.0-beta.2`
+- 更新 `@netless/forge-imagery-doc` 到 `1.1.0-beta.2`
+- 更新 `@netless/forge-slide` 到 `1.1.0-beta.2`
+
 ### [1.0.10] - 2025-09-16
 - 更新 `@netless/forge-room` 到 `1.0.7`
 - 更新 `@netless/forge-whiteboard` 到 `1.0.7`
