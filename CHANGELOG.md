@@ -1,6 +1,10 @@
 # CHANGELOG
 
-### [1.1.0-beta.2] - 2025-09-16
+### [1.1.0-beta.3] - 2025-12-10
+- 新增 `joinRoomTimeout` 配置项，用于设置加入房间的超时时间
+- 支持 `AgoraRtm_OC_Special_RtmKit`
+
+### [1.1.0-beta.2] - 2025-12-05
 - 降低同用户冲突处理的冷却时间到 3 秒
 - Application manager 增加关闭权限管理
 - 修复在接收异常数据下，快照失败导致的一系列其他问题
