@@ -1,5 +1,11 @@
 # iOS 端更新日志 
 
+### [1.1.0] - 2025-12-25
+- 更新 `@netless/forge-room` 到 `1.1.0`
+- 更新 `@netless/forge-whiteboard` 到 `1.1.0`
+- 更新 `@netless/forge-imagery-doc` 到 `1.1.0`
+- 更新 `@netless/forge-slide` 到 `1.1.0`
+
 ### [1.1.0-beta.4] - 2025-12-22
 - 优化用户加入房间拉取快照的逻辑。确保用户至少成功拉取一次快照。
 
