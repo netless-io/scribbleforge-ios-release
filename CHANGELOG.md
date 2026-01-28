@@ -1,5 +1,12 @@
 # iOS 端更新日志 
 
+### [1.1.1] - 2026-01-28
+- 提供 `Whiteboard.setPerformanceMode` 动态设置性能模式
+- 更新 `@netless/forge-room` 到 `1.1.1`
+- 更新 `@netless/forge-whiteboard` 到 `1.1.1`
+- 更新 `@netless/forge-imagery-doc` 到 `1.1.1`
+- 更新 `@netless/forge-slide` 到 `1.1.1`
+
 ### [1.1.0] - 2025-12-25
 - 更新 `@netless/forge-room` 到 `1.1.0`
 - 更新 `@netless/forge-whiteboard` 到 `1.1.0`
