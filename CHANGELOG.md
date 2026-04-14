@@ -1,5 +1,12 @@
 # iOS 端更新日志 
 
+### [1.1.4] - 2026-04-14
+- 对齐 Web 端 joinRoom 的 snapshot 策略：补充 snapshot 404 fallback exchange，并在无 snapshot 时跳过 history 拉取
+- 增强 joinRoom 的 snapshot 错误处理：区分 missing / unauthorized / server error，优化 join 后 snapshot retry 行为
+- 在自身 writable 从 `true` 切换到 `false` 时强制上传一次 snapshot，减少只读切换后的状态丢失风险
+- 更新内置 JS bridge 资源到最新版本，并切换 bridge 资源脚本为 SSH 拉取方式
+- 补充 joinRoom、snapshot、upload、writable transition 相关测试覆盖
+
 ### [1.1.1] - 2026-01-28
 - 提供 `Whiteboard.setPerformanceMode` 动态设置性能模式
 - 更新 `@netless/forge-room` 到 `1.1.1`
