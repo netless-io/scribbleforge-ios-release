@@ -1,5 +1,11 @@
 # iOS 端更新日志 
 
+### [1.2.0-beta.1] - 2026-04-23
+- 对齐 Web 端 snapshot 获取策略：将 signed URL 二次请求返回的 `404 / 401 / 5xx` 统一映射为 `missing / unauthorized / serverError`，避免仅因 OSS 文件缺失直接导致 joinRoom 失败
+- 对齐 Web 端在线用户列表获取策略：加入房间时不再依赖 RTM Presence `.snapshot` 事件回调，而是主动查询在线用户列表，减少重复 join 或重试场景下的 5 秒超时失败
+- 优化 joinRoom 初始化时序：先完成 RTM 订阅，再获取初始用户列表，降低订阅回调与用户列表获取之间的竞态风险
+- 补充 snapshot 二次请求状态映射、用户列表分页查询与网络初始化结果的相关测试覆盖
+
 ### [1.1.4] - 2026-04-14
 - 对齐 Web 端 joinRoom 的 snapshot 策略：补充 snapshot 404 fallback exchange，并在无 snapshot 时跳过 history 拉取
 - 增强 joinRoom 的 snapshot 错误处理：区分 missing / unauthorized / server error，优化 join 后 snapshot retry 行为
