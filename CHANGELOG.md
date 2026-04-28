@@ -1,5 +1,9 @@
 # iOS 端更新日志 
 
+### [1.2.0-beta.2] - 2026-04-28
+- 更新内置 JS bridge 资源到 `393f753`
+- 对齐 bridge 侧 `@netless/forge-room`、`@netless/forge-whiteboard`、`@netless/forge-imagery-doc`、`@netless/forge-slide` 到 `1.2.0-beta.0`
+
 ### [1.2.0-beta.1] - 2026-04-23
 - 对齐 Web 端 snapshot 获取策略：将 signed URL 二次请求返回的 `404 / 401 / 5xx` 统一映射为 `missing / unauthorized / serverError`，避免仅因 OSS 文件缺失直接导致 joinRoom 失败
 - 对齐 Web 端在线用户列表获取策略：加入房间时不再依赖 RTM Presence `.snapshot` 事件回调，而是主动查询在线用户列表，减少重复 join 或重试场景下的 5 秒超时失败
