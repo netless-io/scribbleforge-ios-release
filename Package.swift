@@ -22,13 +22,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ScribbleForgeCore",
-            url: "https://github.com/netless-io/scribbleforge-ios-release/releases/download/1.2.0-beta.2/ScribbleForgeCore.xcframework.zip",
-            checksum: "85f491efb21678be61a80abb4d7b50b2bdad1ea2809ca6c0d5317f77ffd2035d"
+            url: "https://github.com/netless-io/scribbleforge-ios-release/releases/download/1.2.0-beta.3/ScribbleForgeCore.xcframework.zip",
+            checksum: "39961b4756af838e65941229bf22fad3b31094f03988f42527a186a318a908c1"
         ),
         .binaryTarget(
             name: "ScribbleForge",
-            url: "https://github.com/netless-io/scribbleforge-ios-release/releases/download/1.2.0-beta.2/ScribbleForge.xcframework.zip",
-            checksum: "2e7a288acf4b4eb20df91d0d4c308be02c09cb1c56d32f3ffa7dab586bbdd98c"
+            url: "https://github.com/netless-io/scribbleforge-ios-release/releases/download/1.2.0-beta.3/ScribbleForge.xcframework.zip",
+            checksum: "14200920aefa95a419087580e8cd43b8748ee44ecec440a45fc331824c479059"
         ),
         .target(
             name: "ScribbleForgeRTM",

@@ -1,5 +1,9 @@
 # iOS 端更新日志 
 
+### [1.2.0-beta.3] - 2026-05-11
+- 更新内置 JS bridge 资源到 `96e43a2`
+- 对齐 bridge 侧 `@netless/forge-room`、`@netless/forge-whiteboard`、`@netless/forge-imagery-doc`、`@netless/forge-slide` 到 `1.2.0-beta.3`
+
 ### [1.2.0-beta.2] - 2026-04-28
 - 更新内置 JS bridge 资源到 `393f753`
 - 对齐 bridge 侧 `@netless/forge-room`、`@netless/forge-whiteboard`、`@netless/forge-imagery-doc`、`@netless/forge-slide` 到 `1.2.0-beta.0`
