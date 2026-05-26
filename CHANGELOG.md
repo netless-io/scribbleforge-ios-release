@@ -1,10 +1,8 @@
 # iOS 端更新日志 
 
-### [1.3.0-beta.1] - 2026-05-19
-- 对齐 bridge 侧 `@netless/forge-room`、`@netless/forge-whiteboard`、`@netless/forge-imagery-doc`、`@netless/forge-slide` 到 `1.3.0-beta.1`
-- `Whiteboard.insert(image:options:)` 支持 Web 新增的 `fit` 与 `role` 配置，可用于插入 contain 适配图片或页面背景图
-- `Whiteboard` 新增 pageId 页面 API：`addPage`、`gotoPage(id:)`、`deletePage`、`pageList`、`currentPageId`
-- `Whiteboard.indexedNavigation` 对齐 bridge 新的 `indexed*` handler，避免与 pageId `gotoPage` 混用
+### [1.2.0] - 2026-05-26
+- 更新内置 JS bridge 资源到 `92cdb08`
+- 对齐 bridge 侧 `@netless/forge-room`、`@netless/forge-whiteboard`、`@netless/forge-imagery-doc`、`@netless/forge-slide` 到 `1.2.0`
 
 ### [1.2.0-beta.3] - 2026-05-11
 - 更新内置 JS bridge 资源到 `96e43a2`
