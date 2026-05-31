@@ -1,5 +1,9 @@
 # iOS 端更新日志 
 
+### [1.2.2] - 2026-05-31
+- 更新内置 JS bridge 资源到 `403282e`
+- 为 whiteboard launch 失败补充详细错误日志，便于通过宿主端远端日志排查初始化问题
+
 ### [1.2.1] - 2026-05-27
 - 更新内置 JS bridge 资源到 `7cde861`
 - 对齐 bridge 侧 `@netless/forge-room`、`@netless/forge-whiteboard`、`@netless/forge-imagery-doc`、`@netless/forge-slide` 到 `1.2.1`
