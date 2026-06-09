@@ -1,8 +1,16 @@
 # iOS 端更新日志 
 
-### [1.2.2] - 2026-05-31
-- 更新内置 JS bridge 资源到 `403282e`
-- 为 whiteboard launch 失败补充详细错误日志，便于通过宿主端远端日志排查初始化问题
+### [1.3.0] - 2026-06-09
+- 更新内置 JS bridge 资源到 `effafc2`
+- 对齐 bridge 侧 `@netless/forge-room`、`@netless/forge-whiteboard`、`@netless/forge-imagery-doc`、`@netless/forge-slide` 到 `1.3.0`
+- 对齐 Web 端 snapshot 上传策略：基于当前 live docs 全量构建 snapshot，避免上传内容长期停留在历史状态
+- 对齐 join 阶段同步稳定性修复：subdoc 远端更新在 `@room/subDocs` 未就绪时先缓存后重放，并减少 join 中同步消息直接漏掉的问题
+
+### [1.3.0-beta.1] - 2026-05-19
+- 对齐 bridge 侧 `@netless/forge-room`、`@netless/forge-whiteboard`、`@netless/forge-imagery-doc`、`@netless/forge-slide` 到 `1.3.0-beta.1`
+- `Whiteboard.insert(image:options:)` 支持 Web 新增的 `fit` 与 `role` 配置，可用于插入 contain 适配图片或页面背景图
+- `Whiteboard` 新增 pageId 页面 API：`addPage`、`gotoPage(id:)`、`deletePage`、`pageList`、`currentPageId`
+- `Whiteboard.indexedNavigation` 对齐 bridge 新的 `indexed*` handler，避免与 pageId `gotoPage` 混用
 
 ### [1.2.1] - 2026-05-27
 - 更新内置 JS bridge 资源到 `7cde861`
