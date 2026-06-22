@@ -1,5 +1,11 @@
 # iOS 端更新日志 
 
+### [1.3.1] - 2026-06-22
+- 更新内置 JS bridge 资源到 `bbc9e8c`
+- 对齐 bridge 侧 `@netless/forge-room`、`@netless/forge-whiteboard`、`@netless/forge-imagery-doc`、`@netless/forge-slide` 到 `1.3.1`
+- 优化 join 阶段 snapshot 错误语义：区分传输层网络错误与快照恢复错误，避免网络异常被误判为服务端或 restore 失败
+- 为 snapshot metadata 与 signed-url 拉取增加一次传输层重试，并补充 joinRoom / snapshot 对应回归测试覆盖
+
 ### [1.3.0] - 2026-06-09
 - 更新内置 JS bridge 资源到 `effafc2`
 - 对齐 bridge 侧 `@netless/forge-room`、`@netless/forge-whiteboard`、`@netless/forge-imagery-doc`、`@netless/forge-slide` 到 `1.3.0`
